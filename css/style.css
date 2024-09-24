@@ -4,28 +4,25 @@
 	}
 
 	#navbar-container {
-	float left;
-	width: 100%
-	position: relative;
+		width: 100%;
+		position: relative;
 	}
 
 	#main-navbar ul {
-
-	list-style-type:none;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	left: 50%;
-	float: left;
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		left: 50%;
+		float: left;
 	 
 	}
 
-
-	main-navbar ul li {
+	#main-navbar ul li {
 	 float: left;
 	 position:relative;
 	 right: 50%;
-	 display: blok;
+	 display: block;
  
  }
  
@@ -39,9 +36,9 @@
 
 	#sidebar{
 	position: fixed;
-	right: 0%
-	bacground-color:red;
-	height: 10%;
+	right: 0%;
+	background-color:red;
+	height: 100%;
 	width: 20%;
 	}
 
@@ -51,10 +48,8 @@
 	padding: 0;
 }
 
-
-	#sidebar ul a {
+	#sidebar ul li a {
 	display: block;
-	right: 0;
 	padding: 15px 0;
 	color: #fff;
 	text-decoration: none;
