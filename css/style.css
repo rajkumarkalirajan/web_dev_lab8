@@ -1,51 +1,68 @@
-nav {
-	background-color: blue;
-	overflow: hidden;
-	width: 100%
-	positon: relative;
-	list-style-type; none;
-	margin: 0;
-	padding: 0;
-}
+	#main-navbar {
+	background-color:blue;
+	overflow:hidden;
+	}
 
- nav#horzl ul li {
-	 float: right;
-	 margin: 0 15px;
+	#navbar-container {
+	float left;
+	width: 100%
+	position: relative;
+	}
+
+	#main-navbar ul {
+
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		left: 50%;
+		loat: left;
+	 
+	}
+
+
+	main-navbar ul li {
+	 float: left;
+	 position:relative;
+	 right: 50%;
+	 display: blok;
+ 
  }
  
 
-nav {
-	list-style-type: square;
-	padding: 0;
-	margin: 0;
-	overflow: hidden;	
+	#main-navbar ul li a:hover; {
+		background-color:#000;
+	}
+
+	#onpage {
+		text-decoration: underline overline;
+	}
+
+	#sidebar{
+		position: fixed;
+		right: 0%
+		bacground-color:red;
+		height: 10%;
+		width: 20%;
+	}
+
+	#sidebar ul {
+		list-style-type: none;
+		text-align: center;
+		padding: 0;
 }
 
-nav a {
+
+	#sidebar ul a {
+		display: block;
+			right: 0;
+		padding: 15px 0;
 		color: #fff;
 		text-decoration: none;
-}
+	}
 
-nav ul {
-		display: block;
-		text-align: center;
-}
-
-
-aside {
-	position: fixed;
-	right: 0;
-	background-color: red;
-	height: 100%;
-	width: 20%;
-	list-style-type: none;
-	text-align: center;
-	padding: 15px 0;
-}
-
-aside a {
-	color: #fff;
-	text-decoration: none;
+	#sidebar ul li a:hover {
+		background-color: #000;
 }
 
 
