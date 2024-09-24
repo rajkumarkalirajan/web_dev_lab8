@@ -20,6 +20,9 @@
 	}
 
 #main-navbar ul li {
+		float: left;
+		postion: relative;
+		right: 50%;
 		display: block;
  
  }
