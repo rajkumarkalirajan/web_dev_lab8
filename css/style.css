@@ -1,0 +1,43 @@
+nav {
+	background-color: blue;
+	overflow: hidden;
+	width: 100%
+	positon: relative;
+	list-style-type; none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	padding: 10px 20px;
+}
+
+nav a {
+		color: #fff;
+		text-decoration: none;
+}
+
+nav ul {
+		display: block;
+		text-align: center;
+}
+
+aside {
+	position: fixed;
+	right: 0;
+	background-color: red;
+	height: 100%;
+	width: 20%;
+	list-style-type: none;
+	text-align: center;
+	padding: 15px 0;
+}
+
+aside a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+	
+	
