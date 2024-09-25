@@ -35,7 +35,7 @@
 }
  
 #main-navbar ul li a:hover {
-	background-color: #000;
+	background-color: #000080;
 }
 
 #onpage {
@@ -45,7 +45,7 @@
 #sidebar{
 	position: fixed;
 	right: 0%;
-	background-color:red;
+	background-color:yellow;
 	height: 100%;
 	width: 20%;
 }
@@ -64,7 +64,7 @@
 }
 
 #sidebar ul li a:hover {
-	background-color: #000;
+	background-color: #333333;
 }
 
 
